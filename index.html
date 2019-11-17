@@ -9,19 +9,22 @@
 	<title>Control de tareas</title>
 </head>
 <body>
-
+	<div class="form__top">
+		<img src="imagenes/ico_index1.svg" width="100" height="100" >
+		<img src="imagenes/ico_index2.svg" width="100" height="100" >
+		<img src="imagenes/ico_index3.svg" width="100" height="100" >
+	</div>
 	<div class="container">
 		<div class="form__top">
 			<h2>Control de <span>Tareas</span></h2>
 		</div>
 		<form class="form__reg" action="tareas.php" method="post">
-			<input class="input" type="text" placeholder="&#128100;  Cedula" required autofocus>
+			<input type="codigo" name = "codigo" class="input" type="text" placeholder="&#128100;  Cedula" required autofocus>
             <div class="btn__form">
-            	<input class="btn__submit" type="submit" value="Enviar">
+            	<input class="btn__submit" type="submit" value="Aceptar">
             	<input class="btn__reset" type="reset" value="Limpiar">
             </div>
 		</form>
 	</div>
-
 </body>
 </html>
